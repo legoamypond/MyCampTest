@@ -8,5 +8,6 @@ public class Main{
 
         Counselor newCounselor = new Counselor("Sydney",15,"4H Cook camp","Summer Camp");
         newCounselor.intro();
+        newCounselor.countsKids();
     } 
 }

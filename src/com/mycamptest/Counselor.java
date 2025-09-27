@@ -14,7 +14,11 @@ public class Counselor extends Camp{
 
     //behavoirs
     public void intro(){
-        System.out.println("This is "+name+" of"+ " " +campName +". They have " + numOfKids + " in their cabin.");
+        System.out.println("This is "+name+" of"+ " " +campName);
+    }
+
+    public void countsKids(){
+        System.out.println("There is " + numOfKids + " kids in their cabin.");
     }
 
 }
