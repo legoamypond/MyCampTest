@@ -1,4 +1,5 @@
 package com.mycamptest;
+import java.math.*;
 public class Counselor extends Camp{
 
     //attribute fields
