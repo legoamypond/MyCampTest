@@ -4,10 +4,13 @@ import java.util.Scanner;
 public class Main{
 
     public static void main(String[] args){
+        //Instantiates the scanner object
+        //Asks if they would like to "See the summer camp", If yes is answered the rest if the program is executed
         Scanner testScan = new Scanner(System.in);
         System.out.println("You drive up a road and see there is a Summer Camp, Would you like to take a closer look? Write Y or N");
         String testInput = testScan.nextLine(); 
         if (testInput.equals("Y")){
+            
              System.out.println("OK! Lets take a look!");
             //Instantiates a Camp object 
             // Prints the name of the Camp

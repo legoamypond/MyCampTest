@@ -15,10 +15,12 @@ public class Counselor extends Camp{
 
     //behavoirs
     public void intro(){
+        //prints counselor name
         System.out.println("This is "+name+" of"+ " " +campName);
     }
 
     public void countsKids(){
+        //prints the number of kids in the cabin
         System.out.println("There is " + numOfKids + " kids in their cabin.");
     }
 
